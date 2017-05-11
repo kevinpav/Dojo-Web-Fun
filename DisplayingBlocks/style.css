@@ -1,0 +1,51 @@
+/*CSS reset settings here*/
+#container{
+  width: 700px;
+  height: 620px;
+  background-color: #D9D0B3;
+  margin: 0px auto;
+  padding: 10px;
+}
+#header{
+  height: 80px;
+  width: 500px;
+  margin: auto;
+  position: relative;
+}
+#header-content {
+  position: absolute;
+  font-family: 'Merriweather', serif;
+  font-size: 27px;
+  bottom: 5px;
+  left: 15px;
+}
+#header img {
+  display: inline;
+  margin: auto;
+  height: 50px;
+  width: 100px;
+  background-color: white;
+}
+#main_content{
+  height: 530px;
+  width: 680px;
+  margin: 5px;
+  padding-left: 15px;
+}
+.blocks img{
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+  padding: 10px;
+  display: inline;
+  border-style: solid;
+}
+.imgrow {
+  display: inline-block;
+}
+.imgrow img:nth-child(2n+1) {
+  background-color: #A9D0F5;
+}
+.imgrow img:nth-child(2n+2) {
+  background-color: #F78181;
+}

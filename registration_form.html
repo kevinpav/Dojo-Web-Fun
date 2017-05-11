@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Registration Form</title>
+    </head>
+    <body>
+        <form action="process.php" method="post">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">My Registration Form</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label for="first_name">First Name:</label></td>
+                        <td><input type="text" id="first_name" name="first_name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="last_name">Last Name:</label></td>
+                        <td><input type="text" id="last_name" name="last_name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="text" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><input type="password" id="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td>PW Confirm</td>
+                        <td><input type="password" name="password_confirmation"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="birthday">Birthday</label></td>
+                        <td><input id="birthday" type="date"><br></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                        </td>
+
+                        <td>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">other</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">A short description about yourself:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><textarea name="description"></textarea></td>
+                    </tr>
+                   
+                    <tr>
+                        <td>Favorite Language</td>
+                        <td>
+                            <select name="language">
+                                <option value="javascript">Javascript</option>
+                                <option value="python">Python</option>
+                                <option value="php">PHP</option>
+                                <option value="csharp">C#</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
