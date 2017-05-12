@@ -1,0 +1,79 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+ /*border: 1px solid white;*/
+}body {
+	width: 970px;
+	height: 800px;
+	color: aliceblue;
+	background-color: navy;
+	font-size: 14px;
+}
+#header-container {
+	background-color: #b32400;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 20px;
+	width: 94%;
+}
+#left-nav {
+	background-color: #009999;
+	display: inline-block;
+	border-radius: 20px;
+	padding: 20px 0px 20px 20px;
+	width: 20%;
+	margin-left: 20px;
+}
+#nav-main {
+	margin: 0;
+	padding: 0;
+}
+#body-container {
+	background-color: black;
+	display: inline;
+	width: 70%;
+	float: right;
+	border-radius: 20px;
+	padding: 20px;
+}
+#footer-container {
+	display: inline-block;
+	background-color: #737373;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 20px;
+	width: 94%;
+}
+.cyan-link {
+	color: cyan;
+	text-decoration: underline;
+}
+.formula {
+	color: #6600ff;
+}
+.link-details {
+	/*color: cyan;*/
+	margin: 15px;
+	font-size: 14px;
+}
+h1 {
+	font-size: 28px;
+	font-weight:
+}
+h2 {
+	font-size: 20;
+	font-weight: bold;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	margin: 25;
+	margin-left: 20px;
+	padding: 0;
+}
+p {
+	margin-top: 10px;
+}
