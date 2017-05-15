@@ -1,0 +1,104 @@
+/*CSS reset settings here*/
+* {
+ margin: 0px;
+ padding: 0px;
+ /*background-color: pink;*/
+ border: 1px solid gray; /* For testing placement */
+}
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+	color: black;
+	/*background-color: navy;*/
+	font-size: 15px;
+    font-family: 'Droid Sans';
+}
+#header-container {
+    background-color: ghostwhite;
+    width: 970px;
+    padding: 10px;
+    /*border: solid black 1px;*/
+}
+#body-container {
+    height: auto;
+    width: 900px;
+    /*padding: 20px 30px;*/
+    background-color: #4d004d;
+}
+#main-image {
+    /*max-width: 40?%;*/
+    height: 250px;
+    /*float: left;*/
+    border: solid 5px #c0c0c0;
+}
+.info-box-main {
+    display: inline-block;
+    margin: 20px 10px;
+    /*visibility: top;*/
+    background-color: whitesmoke;
+    /*background: linear-gradient(silver, black, silver)*/
+    /*background: linear-gradient(top, rgba(255,0,0,0), rgba(255,0,0,1));*/
+    float: right;
+    /*margin-left: 0px;*/
+    /*margin-right: 30px;*/
+    height: 260px;
+    width: 475px;
+}
+.info-box-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background-color: silver;
+}
+.info-box-details{
+    width: 280px;
+    background-color: whitesmoke;
+    display: inline-block;
+    margin: 10px;
+}
+.info-box-details img{
+    width: 280px;
+}
+.glyph-list img{
+    width: 40px;
+    margin: 5px;
+}
+.fake-button{
+    /*background: green;*/
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    /*width: 25px;*/
+}
+.fake-button span {
+    color: white;
+    background: green;
+    border-radius: 10px;
+    padding: 5px;
+}
+h1 {
+    display: inline;
+    background-color: inherit;
+    /*line-height: 50px;*/
+    vertical-align: middle;
+    /*margin-left: 30px;*/
+    font-family: 'Chewy';
+    font-size: 42px;
+}
+h2 {
+    display: inline;
+    /*background-color: inherit;*/
+    line-height: 60px;
+    vertical-align: middle;
+    float: right;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+p {
+    margin: 10px;
+}
+a {
+    color: black;
+}
