@@ -1,0 +1,138 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ /*border: 1px solid black;*/
+}
+#wrapper{
+ width: 970px;
+ height: 1020px;
+ background-color: gray;
+ font-size: 12px;
+}
+#header-container{
+    background-color: ghostwhite;
+    width: 970px;
+    height: 60px;
+    padding: 0px;
+}
+h1{
+    font-size: 24px;
+    margin: 15px 20px;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+}
+#header-container h2{
+    font-size: 16px;
+    display: inline-block;
+    float: right;
+    margin: 20px 30px;
+}
+#main-container {
+    height: 850px;
+    width: 950px;
+    padding: 10px;
+    background: radial-gradient(circle, #910891, #790679, #300330);
+}
+#main-top-container{
+    height: 290px;
+    width: 950px;
+}
+#main-image {
+    height: 250px;
+    display: inline-block;
+    margin: 10px;
+    border: solid 5px #c0c0c0;
+}
+#main-aboutme{
+    height: 260px;
+    width: 510px;
+    margin: 10px;
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+    background: linear-gradient(to right, #f5eff5 , #e2d0e2);
+
+}
+.info-box-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(#D3D3D3, #A9A9A9, #D3D3D3)
+}
+.info-box-footer {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(#D3D3D3, #A9A9A9, #D3D3D3)
+}
+#main-details-container{
+    width: 950px;
+    height: 570px;
+}
+.main-detail {
+    height: 540px;
+    width: 294px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    font-size: 12px;
+    background: linear-gradient(to right, #f5eff5 , #e2d0e2);
+}
+.info-box-image{
+    width: 293px;
+}
+.info-box-details{
+    height: 120px;
+    width: 271px;
+}
+.glyph-list{
+    padding: 5px 13px;
+}
+.glyph-list img{
+    width: 40px;
+    margin: 5px;
+}
+.fake-button{
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+.fake-button span {
+    color: white;
+    background: #339980;
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: 3px 3px 5px #aaaaaa;
+}
+p {
+    margin: 10px;
+    line-height: 1.2;
+}
+a {
+    color: black;
+}
+#footer-container{
+    width: 970px;
+    height: 100px;
+    background-color: ghostwhite;
+    font-size: 15px;
+    text-align: center;
+}
+.footer-nav-1{
+    padding: 10px;
+}
+.footer-nav-2{
+    font-style: italic;
+    display: inline-block;
+    text-decoration: underline;
+}
+.footer-nav-2 img{
+    width: 20px;
+    margin: 2px;
+    align: bottom;
+    vertical-align: middle;
+}
