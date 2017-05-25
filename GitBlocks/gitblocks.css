@@ -1,0 +1,34 @@
+/*CSS reset settings here*/
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid yellow;
+}
+#wrapper{
+  background-color: #dcdfd6;
+  height: 670px;
+  width: 880px;
+  margin: 0px auto;
+  padding: 16px;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+header {
+  background-color: #51b1ad;
+  height: 60px;
+  padding: 10px;
+  /*width: 850px;*/
+  width: 100%;
+  /*display: inline;*/
+  /*vertical-align: middle;*/
+}
+header img{
+  width: 35px;
+  display: inline-block;
+  vertical-align: middle;
+}
+header h1{
+  display: inline;
+}
+header h2{
+  display: inline;
+}
